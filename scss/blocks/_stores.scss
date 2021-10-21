@@ -1,0 +1,22 @@
+.stores {
+font-family: $font-inter;
+padding: 60px 0;
+  &__title {
+    max-width: 445px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+    margin-bottom: 8px;
+  }
+  &__text {
+    max-width: 445px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+  }
+  &__imgs {
+    max-width: 120px;
+    height: 120px;
+  }
+}

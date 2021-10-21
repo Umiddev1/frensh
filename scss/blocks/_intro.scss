@@ -1,0 +1,43 @@
+@media screen and (min-width: 320px) {
+  #introo {
+    padding: 60px 0;
+  }
+  .intro__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    color: #18191F;
+  }
+  .intro__text {
+    font-family: $font-inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    opacity: 0.8;
+    margin-bottom: 25px;
+  }
+  .intro__list {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .intro__item {
+    margin-bottom: 18px;
+  }
+  .intro__item:nth-child(1) .intro__img {
+    width: 125px;
+    height: 30px;
+  }
+  .intro__item:nth-child(2) .intro__img {
+    width: 125px;
+    height: 50px;
+  }
+  .intro__item:nth-child(5) .intro__img {
+    width: 168px;
+    height: 56px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  background-color: $color-bordo;
+  font-family: $font-inter;
+  &__contents {
+    padding-top: 64px;
+    padding-bottom: 250px;
+  }
+  &__text {
+    max-width: 296px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  &__item {
+    // padding-top: 24px;
+  }
+  .footer__title {
+  }
+  .footer__link {
+  }
+}

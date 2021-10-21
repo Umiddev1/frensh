@@ -1,0 +1,24 @@
+@media screen {
+  .servic__item {
+    margin-bottom: 32px;
+  }
+  .servic__subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: $color-000;
+    margin-bottom: 4px;
+  }
+  .servic__subtext {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: $color-000;
+  }
+}
+@media screen and (min-width: 992px) {
+    .servic__item:nth-child(2) .servic__subtitle {
+      min-width: 259px;
+    }
+}

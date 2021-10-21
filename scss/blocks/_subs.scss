@@ -1,0 +1,42 @@
+.subs {
+  padding: 100px 0;
+  &__contents {
+    background: #F7FAFE;
+    border-radius: 16px;
+    position: relative;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 88px;
+    color: #2E2E2E;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 176px;
+    margin-bottom: 40px;
+  }
+  &__btns {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+  .subs__btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid $color-bordo;
+    background-color: $color-bordo;
+    color: #fff;
+    padding: 12px 30px 12px 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: transform 0.4s ease;
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+  .subs__btn span {
+    margin-right: 8px;
+  }
+}
